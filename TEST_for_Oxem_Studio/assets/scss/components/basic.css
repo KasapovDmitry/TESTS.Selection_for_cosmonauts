@@ -1,0 +1,51 @@
+/*
+// Basic style
+*/
+* {
+  box-sizing: border-box; }
+
+body {
+  height: 100%;
+  margin: 0;
+  font-family: "Nekst-Black", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  color: #111111;
+  overflow-x: hidden; }
+
+.margin8 {
+  margin-bottom: 8px; }
+
+.margin24 {
+  margin-bottom: 24px; }
+
+/*
+//  Button
+*/
+.orang-btn {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  font-size: 30px;
+  line-height: 36px;
+  color: #FFFFFF;
+  background: #FF9514;
+  border-radius: 40px;
+  padding: 16px 40px;
+  white-space: nowrap;
+  cursor: pointer; }
+
+.no-click {
+  cursor: no-drop; }
+
+.orang-btn:hover {
+  background: #111111; }
+
+.orang-btn:active {
+  background: #575757; }
+
+.orang-btn:disabled {
+  background: rgba(255, 149, 20, 0.4);
+  cursor: not-allowed; }
+
+/*# sourceMappingURL=basic.css.map */

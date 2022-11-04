@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Test for OXMEN STUDIO 👍</title>
+    <meta name="description" content="✍ Тестовое задание на позицию Front-end разработчик, с упором на верстку сайтов">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="site">
+        <div class="container">
+            <h1 class="title">Рассчитайте стоимость автомобиля в лизинг</h1>
+            <form>
+                <div class="content-top grid">
+                    <div class="content-top-cell">
+                        <div class="content-cell-name margin24">Стоимость автомобиля</div>
+                        <div class="content-cell-fild">
+                            <div class="input-block">
+                                <div class="input-wrap">
+                                    <input class="cost-inp inp inp-text" type="text" required>
+                                    <div class="input-block-info">
+                                        <span>₽</span>
+                                    </div>
+                                </div>
+                                <div class="range-wrap">
+                                    <input class="styled-slider slider-progress cost range-text" type="range" name="volume" value="1000000" min="1000000" max="6000000">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-top-cell">
+                        <div class="content-cell-name margin24">Первоначальный взнос</div>
+                        <div class="content-cell-fild">
+                            <div class="input-block">
+                                <div class="input-wrap persent">
+                                    <input class="contribution-inp inp" type="text" required>
+                                    <div class="input-block-info">
+                                        <span class="contribution-percent">13</span> 
+                                        <span> %</span>   
+                                    </div>
+                                </div>
+                                <div class="range-wrap">
+                                    <input class="styled-slider slider-progress contribution" type="range" name="volume" value="10" min="10" max="60">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-top-cell">
+                        <div class="content-cell-name margin24">Срок лизинга</div>
+                        <div class="content-cell-fild">
+                            <div class="input-block">
+                                <div class="input-wrap">
+                                    <input class="term-inp inp inp-text" type="number" required>
+                                    <div class="input-block-info"><span>мес.</span></div>
+                                </div>
+                                <div class="range-wrap">
+                                    <input class="styled-slider slider-progress term range-text" type="range" name="volume" value="1" min="1" max="60">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-bottom grid">
+                    <div class="content-bottom-cell">
+                        <div class="content-cell-name margin8">Сумма договора лизинга</div>
+                        <div class="content-cell-sum">
+                            <div class="sum-total sum-all">4 467 313</div>
+                            <span>₽</span>
+                        </div>
+                    </div>
+                    
+                    <div class="content-bottom-cell">
+                        <div class="content-cell-name margin8">Ежемесячный платеж от</div>
+                        <div class="content-cell-sum">
+                            <div class="sum-total sum-mouth">114 455</div>
+                            <span>₽</span>
+                        </div>
+                    </div>
+                    <div class="content-bottom-cell">
+                        <div class="orang-btn">
+                            <span class="btn-content">Оставить заявку</span>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>

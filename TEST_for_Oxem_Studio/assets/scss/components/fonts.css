@@ -1,0 +1,27 @@
+@charset "UTF-8";
+/*
+// Подключение шрифтов
+*/
+@font-face {
+  font-family: "Nekst-Black";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("../fonts/Nekst-Thin/Nekst-Black.eot");
+  src: url("../fonts/Nekst-Thin/Nekst-Black.woff2") format("woff2"), url("../fonts/Nekst-Thin/Nekst-Black.woff") format("woff"), url("../fonts/Nekst-Thin/Nekst-Black.ttf") format("truetype"); }
+@font-face {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/Gilroy-ExtraboldItalic/Gilroy-Regular.eot");
+  src: url("../fonts/Gilroy-ExtraboldItalic/Gilroy-Regular.woff2") format("woff2"), url("../fonts/Gilroy-ExtraboldItalic/Gilroy-Regular.woff") format("woff"), url("../fonts/Gilroy-ExtraboldItalic/Gilroy-Regular.ttf") format("truetype"); }
+@font-face {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/Gilroy-ExtraboldItalic/Gilroy-Bold.eot");
+  src: url("../fonts/Gilroy-ExtraboldItalic/Gilroy-Bold.woff2") format("woff2"), url("../fonts/Gilroy-ExtraboldItalic/Gilroy-Bold.woff") format("woff"), url("../fonts/Gilroy-ExtraboldItalic/Gilroy-Bold.ttf") format("truetype"); }
+
+/*# sourceMappingURL=fonts.css.map */

@@ -1,0 +1,88 @@
+// Файл обнуляющих стилей
+@import "./components/normalize.scss";
+@import "./components/fonts.scss";
+@import "./components/basic.scss";
+@import "./components/input-range.scss";
+@import "./components/all.scss";
+/*
+// Mobile stile
+*/
+@media (max-width: 1119px) {
+    .container {
+      padding: 0px 36px;
+  }
+    .site {
+      height: 100%;
+      padding-top: 64px;
+      padding-bottom: 64px;
+    }
+    .content-top.grid {
+      grid-template-columns: 1fr;
+    }
+    .content-bottom.grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  @media (max-width: 767px) {
+    .orang-btn {
+      width: 100%;
+      font-size: 22px;
+      line-height: 20px;
+      padding: 20px 40px;
+      white-space: nowrap;
+  }
+    .container {
+      padding: 0px 20px;
+    }
+    .title {
+      font-size: 34px;
+      width: 100%;
+    }
+    .content-top.grid {
+      gap: 20px;
+    }
+    .content-bottom.grid {
+      grid-template-columns: 1fr;
+      gap: 30px;
+      margin-top: 20px;
+    }
+    
+    .content-cell-name {
+      font-size: 14px;
+      line-height: 136%;
+      color: #333E48;
+    }
+    .margin24 {
+      margin-bottom: 8px;
+    }
+    .margin8 {
+      margin-bottom: 2px;
+    }
+    .input-wrap input {
+      padding: 17px 20px;
+      font-size: 22px;
+      line-height: 20px;
+      color: #333E48;
+    }
+    .persent .input-block-info {
+      font-size: 22px;
+      line-height: 24%;
+      color: #575757;
+      background: #EBEBEC;
+      border-radius: 16px;
+      padding: 12px;
+      margin: 5px 5px 5px ;
+    }
+    .input-block-info span {
+      font-size: 22px;
+      line-height: 24px;
+    }
+    
+    .content-cell-sum {
+      font-size: 22px;
+      line-height: 20px;
+    }
+  }
+  
+
+
