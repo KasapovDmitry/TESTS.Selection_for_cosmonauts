@@ -1,0 +1,131 @@
+.from-modal {
+    position: fixed;
+    z-index: 101;
+    width: 100%;
+    height: min-content;
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+    background-color: var(--color-gray-fon);
+}
+.modal {
+    position: relative;
+    height: 100vh;
+    min-height: 600px;
+    width: 100%;
+
+    &-fon {
+        height: 100%;
+        width: 100%;
+    }
+    
+    &-screen {
+        position: absolute;
+        margin: 0 auto;
+        background-color: var(--color-white);
+        max-width: 700px;
+        height: min-content;
+        padding: 50px 30px;
+        margin-top: 173px;
+        margin-bottom: 200px;
+        border-radius: 15px;
+        z-index: 201;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+}
+
+.modal-wrap-content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.modal-screen-cross {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    overflow: hidden;
+    top: -73px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--color-purp);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+    
+
+    &:hover {
+        box-shadow: 1px 5px 5px 2px var(--color-gray-fon);
+    }
+
+    & img {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+.modal-screen-title {
+    height: 90px;
+    color: var(--color-black);
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 500;
+}
+
+.modal-screen-row {
+    display: flex;
+    margin-bottom: 20px;
+}
+.screen-row-punkt {
+    min-width: 300px;
+    color: var(--color-black);
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+}
+.screen-row-content {
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 400;
+}
+
+.modal-link {
+    text-decoration: underline;
+    color: var(--color-gray);
+    transition: all 0.2s ease-in;
+    
+    &:hover {
+        color: var(--color-purp);
+        text-decoration: underline;
+    }
+}
+.modal-link-phoine {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.ellipsis {
+    display: block;
+    display: -webkit-box;
+    max-width: 340px;
+    -webkit-line-clamp: 1; /* количество строк */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.modal-screen-dopinfo {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+
+    .screen-row-punkt {
+        padding-bottom: 5px;
+    }
+}

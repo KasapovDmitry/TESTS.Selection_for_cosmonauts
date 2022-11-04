@@ -1,0 +1,75 @@
+/*
+// Общие стили
+*/
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    position: relative;
+    margin: 0;
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    font-style: normal;
+    color: var(--color-gray);
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+is-outer {
+    position: relative !important;
+    left: -999px !important;
+}
+
+.site-container {
+    overflow: hidden;
+}
+
+
+.is-hidden {
+    display: none !important;
+}
+
+.error {
+    border: 2px #ff4019 solid !important;
+}
+
+.btn-reset {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.centr {
+    display: flex;
+    align-items: center;
+}
+
+.mr20 {
+    margin-right: 15px;
+}
